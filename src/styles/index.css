@@ -1,0 +1,47 @@
+body {
+    background: radial-gradient(rgb(7, 7, 7), #1f252a);
+    color: white;
+    overflow-y: hidden;
+    height: 100vh;
+    user-select: none;
+}
+
+h2 {
+    font-family: khBold;
+}
+
+p {
+    font-family: khReg;
+}
+
+.maincon {
+    margin: auto;
+    margin-top: 450px;
+    width: fit-content;
+    text-align: center;
+}
+
+.animcon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.animcursor {
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 12px;
+    height: 3px;
+    background-color: white;
+}
+
+
+@font-face {
+    font-family: khBold;
+    src: url("../fonts/KHFont/OTF/KHInterferenceTRIAL-Regular.otf");
+}
+
+@font-face {
+    font-family: khReg;
+    src: url("../fonts/KHFont/OTF/KHInterferenceTRIAL-Light.otf");
+}
